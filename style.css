@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(34, 33, 33);
+    color: white;
+    text-align: center;
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 200px;
+}
+
+#pokemoninfo {
+    background-color: red;
+    margin: auto;
+    height: 350px;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 5px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+table {
+    background-color: white;
+    align-items: center;
+    margin: auto;
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px black;
+    padding: 10px;
+}
+
+table,
+tr,
+th,
+td {
+    color: black;
+    text-align: left;
+    padding: 5px;
+}
+
+table img {
+    width: 100px;
+    height: 100px;
+}
